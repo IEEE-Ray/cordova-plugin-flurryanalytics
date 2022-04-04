@@ -28,6 +28,10 @@
         <!--<header-file src="src/ios/Flurry.h" />-->
         <header-file src="src/ios/FlurryAnalyticsPlugin.h"/>
         <source-file src="src/ios/FlurryAnalyticsPlugin.m"/>
+        <header-file src="src/ios/Flurry/Flurry.h" target-dir="ios/Flurry-iOS-SDK/Flurry"/>
+        <header-file src="src/ios/Flurry/FlurrySessionBuilder.h" target-dir="ios/Flurry-iOS-SDK/Flurry"/>
+        <source-file src="src/ios/Flurry/FlurryEmpty.m" target-dir="ios/Flurry-iOS-SDK/Flurry"/>
+        <source-file src="src/ios/libFlurry_8.0.0.a" framework="true" target-dir="ios"/>
         <pod id="Flurry-iOS-SDK/FlurrySDK"/>
     </platform>
 
