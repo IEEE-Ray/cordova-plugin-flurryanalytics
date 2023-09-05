@@ -14,7 +14,7 @@
     </js-module>
 
     <engines>
-        <engine name="cordova" version="&gt;=3.0.0"/>
+        <engine name="cordova" version=">=3.0.0"/>
     </engines>
 
     <dependency id="cordova-plugin-cocoapod-support"/>
